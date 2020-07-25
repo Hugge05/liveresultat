@@ -14,7 +14,8 @@ Returns a list of all events and their: ``id``, ``name``, ``organizerId``, ``dat
 Returns the competitions details, runners and organisations.
 Return example:
 
-``{
+```json
+{
     "competition":{
         "name":"GIF-Ringen Etapp 5",
         "organizerId":"1",
@@ -701,4 +702,5 @@ Return example:
             "order":"200"
         }
     ]
-}``
+}
+```
