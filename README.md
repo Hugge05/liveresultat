@@ -19,6 +19,11 @@ Like ``getallcompetitions`` but divided into pages, starting at 0. Results defau
 
 Like ``getcompetitions`` but starts from the given number, defaults to 0.
 
+### ``getuserinfo``
+``https://pallhed.se/api.php?method=getuserinfo&id=0``
+
+Returns the users details.
+
 ### ``getcompetitioninfo``
 ``https://pallhed.se/api.php?method=getcompetitioninfo&id=14``
 
