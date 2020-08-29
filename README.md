@@ -8,6 +8,11 @@ All API requests should be made via HTTPS GET reqests, content returned is retur
 
 Returns a list of all events and their: ``id``, ``name``, ``organizerId``, ``dateTime`` (when the event will be hosted) and ``createdTime`` (when the event was created on Liveresultat).
 
+### ``getcompetitions``
+``https://pallhed.se/api.php?method=getallcompetitions&page=0``
+
+Like ``getallcompetitions`` but divided into pages, starting at 0.
+
 ### ``getcompetitioninfo``
 ``https://pallhed.se/api.php?method=getcompetitioninfo&id=14``
 
