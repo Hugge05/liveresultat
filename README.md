@@ -20,7 +20,7 @@ Like ``getallcompetitions`` but divided into pages, starting at 0. Results defau
 Like ``getcompetitions`` but starts from the given number, defaults to 0.
 
 ### ``getuserinfo``
-``https://pallhed.se/api.php?method=getuserinfo&id=0``
+``https://pallhed.se/api.php?method=getuserinfo&id=1``
 
 Returns the users details.
 
