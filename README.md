@@ -2,6 +2,7 @@
 
 ## API
 All API requests should be made via HTTPS GET reqests, content returned is returned as JSON.
+While there are no limit on how much or how often you can request, try to go easy on the servers if possible.
 
 ### ``getallcompetitions``
 ``https://pallhed.se/api.php?method=getallcompetitions``
